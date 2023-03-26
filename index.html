@@ -1,0 +1,54 @@
+<html>
+        <!-- Stylesheet -->
+       <link rel="stylesheet" href="index.css">
+       
+       <!-- Google Fonts -->
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+        
+        <!-- Font awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    
+    <body>
+        <header>
+            <div class="top-section">
+                <h1 class="title">Jakub's Diner</h1>
+                <h4 class="title">Homemade Slovakian burgers away from home</h4>
+            </div>
+        </header>
+        
+        <main>
+            <section>
+                <div id="menu-options"></div>
+            </section>
+            
+            <section>
+                <div class="thank-you-msg-div hidden" id="thank-you-msg-div"></div>
+            </section>  
+            
+            <section>
+                <div class="hidden" id="order-section">
+                    <div class="order-title">
+                        <p class="your-order">Your order</p>
+                    </div>
+                    <div id="menu-order-summary"></div>
+                    
+                    <div class="order-total" id="order-total"></div>
+                    <div class="order-btn-div">
+                        <button class="order-btn" id="order-btn">Complete Order</button>
+                    </div>
+                </div>
+            </section>
+            
+            <section>
+                <div class="form-div hidden" id="form-div"></div>
+            </section>
+        </main>
+        
+        
+	<script src="index.js" type="module"></script>
+    </body>
+</html>
+
